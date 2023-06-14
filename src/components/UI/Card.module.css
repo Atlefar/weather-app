@@ -1,0 +1,26 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem auto 0 auto;
+    background-color: #1c1c5e;
+    color: #fff;
+    height: 7rem;
+    width: 90%;
+    border-radius: 16px;
+}
+
+.icon__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: inherit;
+    height: 3.3rem;
+    width: 80%;
+    border-radius: 16px;
+}
+
+.weather__info {
+    text-align: center;
+    line-height: 1.5rem;
+}

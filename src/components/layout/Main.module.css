@@ -1,0 +1,25 @@
+.container {
+    height: 100vh;
+    background-color: #04044d;
+    margin-top: -1px;
+    padding-top: 1.5rem;
+}
+
+.container h2 {
+    color: #fff;
+    text-align: center;
+    padding-top: 2rem;
+}
+
+.container h3 {
+    font-size: 6rem;
+    padding-top: 1rem;
+    color: #fff;
+    text-align: center;
+}
+
+.icons {
+    display: block;
+    margin: 0 auto 0 auto;
+    height: 15rem;
+}
