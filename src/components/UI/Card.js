@@ -5,19 +5,19 @@ const Card = (props) => {
         <div className={classes.container}>
             <div className={classes.icon__container}>
                     <div className={classes.weather__info}>
-                        <span>💧</span>
-                        <h4>{props.humidity}%</h4>
-                        <p>Humidity</p>
+                        <span>{props.firstIcon}</span>
+                        <h4>{props.firstItem}%</h4>
+                        <p>{props.firstTitle}</p>
                     </div>
                     <div className={classes.weather__info}>
-                        <span>↗</span>
-                        <h4>{props.wind} m/s</h4>
-                        <p>Wind</p>
+                        <span>{props.secondIcon}</span>
+                        <h4>{props.secondItem} m/s</h4>
+                        <p>{props.secondTitle}</p>
                     </div>
                     <div className={classes.weather__info}>
-                        <span>🌞</span>
-                        <p>{props.uvIndex}</p>
-                        <h4>UV-index</h4>
+                        <span>{props.thirdIcon}</span>
+                        <p>{props.thirdItem}</p>
+                        <h4>{props.thirdTitle}</h4>
                     </div>
             </div>
         </div> 
