@@ -22,3 +22,8 @@
     margin: 0 auto 0 auto;
     height: 15rem;
 }
+
+.current__weather__icon {
+    display: block;
+    margin: -1rem auto -2rem auto;
+}
