@@ -25,5 +25,5 @@
 
 .current__weather__icon {
     display: block;
-    margin: -1rem auto -2rem auto;
+    margin: auto auto 1rem auto;
 }
