@@ -16,8 +16,8 @@ const Card = (props) => {
                     </div>
                     <div className={classes.weather__info}>
                         <span>{props.thirdIcon}</span>
-                        <p>{props.thirdItem}</p>
-                        <h4>{props.thirdTitle}</h4>
+                        <h4>{props.thirdItem}</h4>
+                        <p>{props.thirdTitle}</p>
                     </div>
             </div>
         </div> 
