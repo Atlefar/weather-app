@@ -9,13 +9,7 @@ const Main = () => {
   const [data, setData] = useState('');
 
   useEffect(() => {
-    const fetchData = async () => {
-      const weatherData = await FetchWeatherData();
-      setData(weatherData);
-      console.log(weatherData);
-    };
-
-    fetchData();
+    FetchWeatherData(setData);
   }, []);
 
     // add '%' after humidity level
