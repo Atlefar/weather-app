@@ -24,3 +24,9 @@
     text-align: center;
     line-height: 1.5rem;
 }
+
+@media (min-width: 495px) {
+    .container {
+        width: 28rem;
+    }
+  }

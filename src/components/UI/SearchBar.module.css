@@ -33,3 +33,9 @@
     height: 1.4rem;
     padding-left: 1.5rem;
 }
+
+@media (min-width: 495px) {
+    .container__input {
+        width: 25rem;
+    }
+  }
