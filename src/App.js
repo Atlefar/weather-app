@@ -1,13 +1,13 @@
 import { Fragment } from "react";
-import Header from "./components/layout/Header";
+import Heading from "./components/layout/Heading";
 import SearchBar from "./components/UI/SearchBar";
 import Main from "./components/layout/Main";
 
 const App = () => {
   return (
     <Fragment>
-      <Header />
       <SearchBar />
+      <Heading />
       <Main />
     </Fragment>
   );

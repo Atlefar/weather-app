@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
-import classes from './Header.module.css';
+import classes from './Heading.module.css';
 
-const Header = () => {
+const Heading = () => {
     const [currentDate, setCurrentDate] = useState('');
 
     useEffect(() => {
@@ -30,4 +30,4 @@ const Header = () => {
     );
 };
 
-export default Header;
+export default Heading;
